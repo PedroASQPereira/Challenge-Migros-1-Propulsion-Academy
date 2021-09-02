@@ -20,7 +20,7 @@ API_KEY = [
 ]
 shops_list = []
 debug_list = []
-SAVE_PATH = r'C:\Users\Pedro\Documents\Propulsion_Academy\Course_Structure_Template\Challenge-Migros-1-Propulsion-Academy\notebooks'
+#SAVE_PATH = r'C:\Users\Pedro\Documents\Propulsion_Academy\Course_Structure_Template\Challenge-Migros-1-Propulsion-Academy\notebooks\'
 COMPANY_SEARCH = 'Migros'
 RADIUS_KM = 0.5
 LIMIT = 60
