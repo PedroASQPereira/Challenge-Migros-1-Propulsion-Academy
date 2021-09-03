@@ -7,14 +7,12 @@ Run the google maps popularity scraper
 import os
 import sys
 import time
-import selenium
 import urllib.parse
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.common.by import By
 from selenium.common.exceptions import TimeoutException
-from selenium.webdriver import Chrome
 from bs4 import BeautifulSoup
 from datetime import datetime
 import pandas as pd
