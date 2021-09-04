@@ -18,7 +18,7 @@ SAVE_HTML = r"html"
 
 # put your url or path here to a csv where the first column is a google maps url
 # google sheets - export as csv https://stackoverflow.com/a/33727897/2327328
-URL_PATH_INPUT = r"migros_urls.csv"
+URL_PATH_INPUT = r"supermarkt_urls.csv"
 #URL_PATH_INPUT = 'urls.csv'
 
 DEBUG = False
