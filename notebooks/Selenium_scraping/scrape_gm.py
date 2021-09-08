@@ -79,9 +79,9 @@ def run_scraper(u):
 	scrape_time = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
 
 	# get html source (note this uses headless Chrome via Selenium)
-	print("al")
+
 	html = get_html(u, 'html' + os.sep + make_file_name(u) + '.' + run_time + '.html')
-	print("au")
+
 
 	data = parse_html(html)
 	print(data)
@@ -109,16 +109,13 @@ def get_html(u,file_name):
 	# if the html source exists as a local file, don't bother to scrape it
 	# this shouldn't run
 
-	print("al2")
 
 	if False and os.path.isfile(file_name):
 		with open(file_name,'r') as f:
 			html = f.read()
-		print("al3")
 		return html
 
 	else:
-		print("al4")
 		# requires chromedriver
 		options = webdriver.ChromeOptions()
 		#options.add_argument('--start-maximized')
@@ -131,7 +128,6 @@ def get_html(u,file_name):
 		d = webdriver.Chrome(chrome_driver_binary)
 		d.get(u)
 		time.sleep(1)
-
 		elem = d.find_elements_by_class_name("VfPpkd-LgbsSe-OWXEXe-k8QpJ")[3]
 		elem.click()
 
@@ -140,10 +136,8 @@ def get_html(u,file_name):
 		# get page
 		# sleep to let the page render, it can take some time
 		# timeout after max N seconds (config.py)
-		# based on https://stackoverflow.com/questions/26566799/wait-until-page-is-loaded-with-selenium-webdriver-for-python
-		try:
+		# based on https://stackoverflow.com/questions/26566799/wait-until-page-is-loaded-with-selenium-webdriver-for-python		try:
 			WebDriverWait(d, config.SLEEP_SEC).until(EC.presence_of_element_located((By.CLASS_NAME, 'section-popular-times-bar')))
-			print("al5")
 		except TimeoutException:
 			print('ERROR: Timeout! (This could be due to missing "popular times" data, or not enough waiting.)',u)
 
@@ -156,7 +150,7 @@ def get_html(u,file_name):
 		# save html as variable
 		html = d.page_source
 		d.close()
-		print("al6")
+
 		d.quit()
 		return html
 
