@@ -14,13 +14,20 @@ import itertools
 import json
 
 
-API_KEY = [
-    AIzaSyBIltlWpxORn6tCqbZWIc-6A-gD2UkU5pA
-]
 shops_list = []
 debug_list = []
 SAVE_PATH = r'C:\workworklingxuan\bootcamp\project\challenge1\data'
 COMPANY_SEARCH = 'Migros'
+
+#key_json = json.load(open("credentials.json"))
+
+API_KEY = [
+    "i"]
+shops_list = []
+debug_list = []
+SAVE_PATH = r'C:\Users\Pedro\Documents\Propulsion_Academy\Course_Structure_Template\Challenge-Migros-1-Propulsion-Academy\notebooks'
+COMPANY_SEARCH = 'supermarkt'
+
 RADIUS_KM = 0.5
 LIMIT = 60
 
@@ -382,6 +389,7 @@ if __name__ == "__main__":
     # diff of lon = 0.070838 / diff of lat = 0.154838
     coord.createcoordinates(47.3577, 8.42736, 47.4323, 8.61147)
     # diff of lon = 0.0746 / diff of lat = 0.18411
+
     # 2. SEARCH PARTITIONS
     # Setup counter
     req_count = counter()
