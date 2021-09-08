@@ -13,13 +13,14 @@ import requests
 import itertools
 import json
 
+key_json = json.load(open("credentials.json"))
 
 API_KEY = [
-    AIzaSyBIltlWpxORn6tCqbZWIc-6A-gD2UkU5pA
+    key_json["key"]
 ]
 shops_list = []
 debug_list = []
-SAVE_PATH = r'C:\workworklingxuan\bootcamp\project\challenge1\data'
+#SAVE_PATH = r'C:\Users\Pedro\Documents\Propulsion_Academy\Course_Structure_Template\Challenge-Migros-1-Propulsion-Academy\notebooks\'
 COMPANY_SEARCH = 'Migros'
 RADIUS_KM = 0.5
 LIMIT = 60
