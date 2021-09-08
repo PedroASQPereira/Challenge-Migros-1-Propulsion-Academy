@@ -1,0 +1,8 @@
+﻿Sie haben folgende Bestellung aufgegeben: 
+Name des Geodatensatzes: Statistische Zonen 
+Name des Ausschnittes: stzh
+Ausschnitt (falls definiert): 2676224.694, 1241584.105, 2689665.812,1254306.233 
+Zeitpunkt der Bearbeitung: 03.09.2021 - 14:47 
+
+
+https://www.stadt-zuerich.ch/geodaten/download/Statistische_Zonen?format=10007

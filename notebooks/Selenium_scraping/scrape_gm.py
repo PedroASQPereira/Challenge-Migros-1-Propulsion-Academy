@@ -44,6 +44,7 @@ def main():
 	urls.to_csv('logs' + os.sep + run_time + '.log', index = False)
 
 	url_list = urls.iloc[:, 0].tolist()
+	url_list = url_list[1]
 	for url in url_list:
 		#print(urllib.parse.urlparse(url))
 		#print (url)
@@ -154,6 +155,7 @@ def get_html(u,file_name):
 		#	print("al6")
 		# save html as variable
 		html = d.page_source
+		d.close()
 		print("al6")
 		d.quit()
 		return html

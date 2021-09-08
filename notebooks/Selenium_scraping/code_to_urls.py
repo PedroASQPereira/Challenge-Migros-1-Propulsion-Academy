@@ -10,7 +10,7 @@ def main(csv_file_name):
 
     key_json = json.load(open("credentials_juan.json"))
     # key_json["key"]
-    gmaps_key = key_json["key"]
+    gmaps_key = "AIzaSyAJ97RuEMWKQnXxVQLPhu0OaljMVu76bfI"
     # gmaps_key
 
     # text string on which to search
@@ -41,8 +41,8 @@ def main(csv_file_name):
 
 
 
-    urls_df = pd.DataFrame({"urls": urls_list})
+    urls_df = pd.DataFrame({"urls": urls_list,"codes": df1["codes"]})
 
     urls_df.to_csv(df1["names"][1].replace(" ", "_") + "_urls.csv", index=False)
 
-main("notebooksMigros_python_mined.csv")
+main("notebookssupermarkt_python_mined.csv")
