@@ -9,7 +9,7 @@ Data Science Propulsion Bootcamp
 
 **Description:** This project was choosen by us to become familiar with geodata and its multiple interfaces with python. 
 Additionally we used the following methods throughout the project: 
-    - *Data Gathering:*  Google Places API, Selenium, proprietary data from UrbanDataLab.
+    \n- *Data Gathering:*  Google Places API, Selenium, proprietary data from UrbanDataLab.
     - *Data Preparation and Understanding:* Pandas and Matplotlib
     - *Data Visualization:* Pydeck for scatter and heatmap rendering on map
 
