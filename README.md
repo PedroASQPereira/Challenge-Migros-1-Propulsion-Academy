@@ -2,6 +2,7 @@ Migros-Store-Location-Challenge
 ==============================
 
 Data Challengue #1
+
 Data Science Propulsion Bootcamp
 
 
@@ -9,15 +10,17 @@ Data Science Propulsion Bootcamp
 
 **Description:** This project was choosen by us to become familiar with geodata and its multiple interfaces with python. 
 Additionally we used the following methods throughout the project: 
-    \n- *Data Gathering:*  Google Places API, Selenium, proprietary data from UrbanDataLab.
-    - *Data Preparation and Understanding:* Pandas and Matplotlib
-    - *Data Visualization:* Pydeck for scatter and heatmap rendering on map
+    
+- *Data Gathering:*  Google Places API, Selenium, proprietary data from UrbanDataLab.
+- *Data Preparation and Understanding:* Pandas and Matplotlib   
+- *Data Visualization:* Pydeck for scatter and heatmap rendering on map
 
 **Methodology:** The project is based on the assumption that existing supermarkets are profitable and that the location of the supermarket plays a significantly role in the profitability. Therefore, further considerations shuold as customer segments and preferences will not be considered. The key phases of the project's methodology are the following:
-    - *Step 1:* Select from available data the parameters correlated to existing Migros' locations
-    - *Step 2:* Based on the parameters defined above, identify most attractive locations and exclude outliers
-    - *Step 3:* Cross-check for number and type of existing supermarkets in these locations
-    - *Step 4:* Compile relational models to make an evaluation 
+
+- *Step 1:* Select from available data the parameters correlated to existing Migros' locations
+- *Step 2:* Based on the parameters defined above, identify most attractive locations and exclude outliers
+- *Step 3:* Cross-check for number and type of existing supermarkets in these locations
+- *Step 4:* Compile relational models to make an evaluation 
 
 Project Organization
 ------------
