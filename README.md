@@ -22,6 +22,19 @@ Additionally we used the following methods throughout the project:
 - *Step 3:* Cross-check for number and type of existing supermarkets in these locations
 - *Step 4:* Compile relational models to make an evaluation 
 
+**Visualization:**
+The figure below illustrates the number of supermarkets and Migros suoermarkets in Zürich obtained from the Google API platform. In green are displayed all supermarkets and in orange the Migros.
+
+![image](https://user-images.githubusercontent.com/37544176/132989865-bdd44bea-c288-4b52-b2c6-790691e3c877.png)
+
+
+Additionally, one of our models returned the following heatmap:
+
+![image](https://user-images.githubusercontent.com/37544176/132990032-26a32443-5e33-41fa-8b6d-05cea1c985d5.png)
+
+**Conclusions:**
+
+
 Project Organization
 ------------
 
