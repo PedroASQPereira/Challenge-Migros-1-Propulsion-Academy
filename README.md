@@ -32,8 +32,16 @@ Additionally, one of our models returned the following heatmap:
 
 ![image](https://user-images.githubusercontent.com/37544176/132990032-26a32443-5e33-41fa-8b6d-05cea1c985d5.png)
 
+As it can be observed, there are multiple isolated points with varying degrees of gradients. To derive conclusion from the map, it is required not only to analyse the corresponding gradient and the size of the cluster. For example, isolated squares should not be considered, regardless of their respective benefit, because it might be that supermarkets are already present on the neighbouring squares.
+
 **Conclusions:**
 
+In this project, we familiarized ourselves with data gathering tools (APIs and Web scraping), data manipulation and preparation, data visualization tools and a set of linear models. 
+
+**Future work:**
+
+- Varying the size of the squares: Start with large areas identifying the locations with the lowest number of supermarkets and the split it into smaller pieces to identify specific locations
+- Introducing more features into the model: Currently only number of supermarkets, population density and transportation quality are considered. Other factors influencing the profitability of a supermarket would be average income, rent, traffic levels, etc.
 
 Project Organization
 ------------
