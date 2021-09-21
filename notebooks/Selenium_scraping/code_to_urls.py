@@ -4,13 +4,13 @@ import pandas as pd
 
 
 def main(csv_file_name):
-    key_dict = {"key": "AIzaSyAJ97RuEMWKQnXxVQLPhu0OaljMVu76bfI"}
+    key_dict = {"key": ""}
     with open("credentials_juan.json", "w") as output:
         json.dump(key_dict, output)
 
     key_json = json.load(open("credentials_juan.json"))
     # key_json["key"]
-    gmaps_key = "AIzaSyAJ97RuEMWKQnXxVQLPhu0OaljMVu76bfI"
+    gmaps_key = ""
     # gmaps_key
 
     # text string on which to search
