@@ -19,10 +19,12 @@ lib64/
 parts/
 sdist/
 var/
+CSV_data_challengue/
 *.egg-info/
 .installed.cfg
 *.egg
 *.json
+*.pptx
 
 *.pptx
 # PyInstaller
